@@ -1,25 +1,23 @@
-# Cerebro Digital Adaptativo
+# 🧠 Cerebro Digital
 
-Sistema inteligente capaz de alamacenar recuerdos, analizar patrones, aprender del usuario y evolucionar mediante IA.
+Sistema inteligente adaptativo diseñado para gestionar información, aprendizaje y automatización mediante una arquitectura moderna.
 
-## Estado:
+## 🚀 Estado del proyecto
 
-En desarrollo
+Actualmente en desarrollo.
 
-## Infraestructura actual
+### Implementado
 
-Actualmenete el proyecto cuenta con:
-  - Docker Desktop
-  - Dcoker Compose
-  - PostgreSQL 17
-  - Redis 8
-  - pgAdmin 4
-  - DBeaver para administración de base de datos
+- ✅ Estructura inicial del backend
+- ✅ API desarrollada con FastAPI
+- ✅ Configuración mediante variables de entorno
+- ✅ Entorno virtual de Python
+- ✅ Dockerización del backend
+- ✅ Contenedor FastAPI funcionando
+- ✅ PostgreSQL configurado con Docker
+- ✅ Redis configurado con Docker
+- ✅ pgAdmin configurado con Docker
 
-## Cómo iniciar la infraestructura
+---
 
-Desde la carpeta docker:
-'''bash
-docker compose up -d
-
-
+# 🏗️ Arquitectura actual
