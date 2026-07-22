@@ -5,11 +5,11 @@ class Settings(BaseSettings):
     APP_NAME: str
     APP_VERSION: str
 
-    MYSQL_HOST: str
-    MYSQL_PORT: int
-    MYSQL_USER: str
-    MYSQL_PASSWORD: str
-    MYSQL_DATABASE: str
+    POSTGRES_HOST: str
+    POSTGRES_PORT: int
+    POSTGRES_USER: str
+    POSTGRES_PASSWORD: str
+    POSTGRES_DATABASE: str
 
     REDIS_HOST: str
     REDIS_PORT: int
