@@ -16,3 +16,11 @@ services:
       - ./backend:/app
 
     restart: always
+
+    networks:
+      - cerebro_network
+
+
+networks:
+  cerebro_network:
+    external: true

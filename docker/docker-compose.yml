@@ -17,6 +17,10 @@ services:
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
 
+    networks:
+      - cerebro_network
+
+
   pgadmin:
     image: dpage/pgadmin4
 
@@ -34,6 +38,10 @@ services:
     depends_on:
       - postgres
 
+    networks:
+      - cerebro_network
+
+
   redis:
     image: redis:8
 
@@ -43,3 +51,14 @@ services:
 
     ports:
       - "6379:6379"
+
+    volumes:
+      - ./redis_data:/data
+
+    networks:
+      - cerebro_network
+
+
+networks:
+  cerebro_network:
+    external: true
